@@ -1,0 +1,144 @@
+/* |||| IMPORT |||| */
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+/* CUSTUM FONTS */
+.kumbh-sans-400 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+
+.kumbh-sans-700 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+
+/* |||| ROOT |||| */
+:root{
+    /* COLORS */
+    /* primary */
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    /* neutral */
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+/* RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY COPY */
+body {
+    font-size: 18px;
+    overflow: hidden;
+}
+
+main {
+  align-items: center;
+  background-color: var(--Dark-cyan);
+  color: var(--Very-dark-desaturated-blue);
+  display: flex;
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+/* |||| BACKGROUND |||| */
+#bg-top,
+#bg-bottom {
+  object-fit: contain;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+#bg-top {
+  bottom: 35%;
+  right: 45%;
+}
+
+#bg-bottom {
+  top: 50%;
+  left: 42%;
+}
+
+/*|||| CARD |||| */
+#card {
+  border-radius: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  z-index: 2;
+}
+
+#bg-card {
+  border-radius: 20px 20px 0 0;
+  object-fit: contain;
+  width: 100%;
+}
+
+#profile-pic {
+  border: solid 5px whitesmoke;
+  border-radius: 50%;
+  object-fit: contain;
+  position: relative;
+  top: -50px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: -30px 0 5px;
+}
+
+h1 span {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+h2,
+span {
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+}
+
+h2 {
+  border-bottom: solid 2px var(--Dark-gray);
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+/* |||| SOCIAL INFO CONTAINER |||| */
+
+#social-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+h3 span {
+  font-size: 0.6rem;
+  display: block;
+  letter-spacing: 0.1rem;
+}
+
+/* centers the middle social counter with the h2 text "London". */
+h3:nth-child(2) {
+  margin-right: 10px;
+}
