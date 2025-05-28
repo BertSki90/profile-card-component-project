@@ -72,8 +72,8 @@ main {
 }
 
 #bg-bottom {
-  top: 50%;
   left: 42%;
+  top: 50%;
 }
 
 /*|||| CARD |||| */
@@ -97,13 +97,13 @@ main {
   border-radius: 50%;
   object-fit: contain;
   position: relative;
-  top: -50px;
+  top: -55px;
 }
 
 h1 {
   font-size: 1.3rem;
   font-weight: 700;
-  margin: -30px 0 5px;
+  margin: -45px 0 5px;
 }
 
 h1 span {
