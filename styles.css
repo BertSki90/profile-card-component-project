@@ -62,17 +62,17 @@ main {
 #bg-bottom {
   object-fit: contain;
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   z-index: 1;
 }
 
 #bg-top {
   bottom: 35%;
-  right: 45%;
+  right: 50%;
 }
 
 #bg-bottom {
-  left: 42%;
+  left: 52%;
   top: 50%;
 }
 
